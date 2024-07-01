@@ -8,23 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		B614B73D2C2B11C90010D93B /* FriendsFavoriteMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B73C2C2B11C90010D93B /* FriendsFavoriteMoviesApp.swift */; };
-		B614B73F2C2B11C90010D93B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B73E2C2B11C90010D93B /* ContentView.swift */; };
+		B614B73F2C2B11C90010D93B /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B73E2C2B11C90010D93B /* MovieList.swift */; };
 		B614B7412C2B11C90010D93B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B7402C2B11C90010D93B /* Movie.swift */; };
 		B614B7432C2B11CB0010D93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B614B7422C2B11CB0010D93B /* Assets.xcassets */; };
 		B614B7462C2B11CB0010D93B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B614B7452C2B11CB0010D93B /* Preview Assets.xcassets */; };
 		B614B74D2C2B13610010D93B /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B74C2C2B13610010D93B /* SampleData.swift */; };
 		B614B74F2C2B16FF0010D93B /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B74E2C2B16FF0010D93B /* MovieDetail.swift */; };
+		B614B7512C3351EE0010D93B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B7502C3351EE0010D93B /* Friend.swift */; };
+		B614B7532C3352910010D93B /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B7522C3352910010D93B /* FriendList.swift */; };
+		B614B7552C33553A0010D93B /* FriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B7542C33553A0010D93B /* FriendDetail.swift */; };
+		B614B7572C3357AD0010D93B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B7562C3357AD0010D93B /* ContentView.swift */; };
+		B614B7592C335A2D0010D93B /* FilteredMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614B7582C335A2D0010D93B /* FilteredMovieList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B614B7392C2B11C90010D93B /* FriendsFavoriteMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsFavoriteMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B614B73C2C2B11C90010D93B /* FriendsFavoriteMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsFavoriteMoviesApp.swift; sourceTree = "<group>"; };
-		B614B73E2C2B11C90010D93B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B614B73E2C2B11C90010D93B /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		B614B7402C2B11C90010D93B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		B614B7422C2B11CB0010D93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B614B7452C2B11CB0010D93B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B614B74C2C2B13610010D93B /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		B614B74E2C2B16FF0010D93B /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		B614B7502C3351EE0010D93B /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		B614B7522C3352910010D93B /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		B614B7542C33553A0010D93B /* FriendDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetail.swift; sourceTree = "<group>"; };
+		B614B7562C3357AD0010D93B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B614B7582C335A2D0010D93B /* FilteredMovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredMovieList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				B614B73C2C2B11C90010D93B /* FriendsFavoriteMoviesApp.swift */,
-				B614B73E2C2B11C90010D93B /* ContentView.swift */,
+				B614B73E2C2B11C90010D93B /* MovieList.swift */,
+				B614B7582C335A2D0010D93B /* FilteredMovieList.swift */,
+				B614B7562C3357AD0010D93B /* ContentView.swift */,
+				B614B7502C3351EE0010D93B /* Friend.swift */,
 				B614B74C2C2B13610010D93B /* SampleData.swift */,
+				B614B7522C3352910010D93B /* FriendList.swift */,
+				B614B7542C33553A0010D93B /* FriendDetail.swift */,
 				B614B74E2C2B16FF0010D93B /* MovieDetail.swift */,
 				B614B7402C2B11C90010D93B /* Movie.swift */,
 				B614B7422C2B11CB0010D93B /* Assets.xcassets */,
@@ -146,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B614B73F2C2B11C90010D93B /* ContentView.swift in Sources */,
+				B614B7552C33553A0010D93B /* FriendDetail.swift in Sources */,
+				B614B73F2C2B11C90010D93B /* MovieList.swift in Sources */,
 				B614B7412C2B11C90010D93B /* Movie.swift in Sources */,
 				B614B74F2C2B16FF0010D93B /* MovieDetail.swift in Sources */,
+				B614B7532C3352910010D93B /* FriendList.swift in Sources */,
+				B614B7572C3357AD0010D93B /* ContentView.swift in Sources */,
+				B614B7512C3351EE0010D93B /* Friend.swift in Sources */,
+				B614B7592C335A2D0010D93B /* FilteredMovieList.swift in Sources */,
 				B614B73D2C2B11C90010D93B /* FriendsFavoriteMoviesApp.swift in Sources */,
 				B614B74D2C2B13610010D93B /* SampleData.swift in Sources */,
 			);
